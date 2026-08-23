@@ -1,5 +1,6 @@
 export type ProjectVisual = {
   url: string;
+  src?: string;
   label: string;
   position?: string;
 };
@@ -63,10 +64,10 @@ export const projects: Project[] = [
     intro: "A cinematic, scroll-led site for private steak parties delivered at the customer’s location, balancing atmosphere with a direct enquiry path.",
     contribution: ["Scroll-led frontend experience", "Responsive enquiry journey", "Standalone production deployment"],
     visuals: [
-      { url: "https://grillz.id", label: "Opening experience", position: "top" },
-      { url: "https://grillz.id", label: "Private dining story", position: "34%" },
-      { url: "https://grillz.id", label: "Service experience", position: "66%" },
-      { url: "https://grillz.id", label: "Enquiry path", position: "bottom" },
+      { url: "https://grillz.id", src: "/projects/grillz/opening.webp", label: "Opening experience", position: "center" },
+      { url: "https://grillz.id", src: "/projects/grillz/experience.webp", label: "Social proof & testimonials", position: "center" },
+      { url: "https://grillz.id", src: "/projects/grillz/service.webp", label: "Events & service detail", position: "center" },
+      { url: "https://grillz.id", src: "/projects/grillz/contact.webp", label: "Contact & reservation", position: "center" },
     ],
   },
   {
@@ -153,4 +154,4 @@ export const projects: Project[] = [
 ];
 
 export const projectCapture = (visual: ProjectVisual) =>
-  `https://image.thum.io/get/fullpage/width/1800/noanimate/${visual.url}`;
+  visual.src ?? `https://image.thum.io/get/fullpage/width/1800/noanimate/${visual.url}`;
