@@ -16,6 +16,7 @@ export type Project = {
   intro: string;
   contribution: string[];
   visuals: ProjectVisual[];
+  mobileSrc?: string;
 };
 
 export const projects: Project[] = [
@@ -29,11 +30,11 @@ export const projects: Project[] = [
     scope: "AI-powered content, agent, and workflow experiences across customer-facing product surfaces and internal operations.",
     intro: "An AI operations platform designed for Indonesian businesses, connecting customer conversations, content production, and CRM workflows in one product surface.",
     contribution: ["Customer-facing product experience", "AI feature and workflow integration", "Responsive interface and production delivery"],
+    mobileSrc: "/projects/spicelab/overview.webp",
     visuals: [
-      { url: "https://www.spicelab.ai", label: "Product landing", position: "top" },
-      { url: "https://www.spicelab.ai", label: "AI capabilities", position: "34%" },
-      { url: "https://www.spicelab.ai", label: "Platform ecosystem", position: "64%" },
-      { url: "https://www.spicelab.ai", label: "Plans and conversion", position: "88%" },
+      { url: "https://www.spicelab.ai", src: "/projects/spicelab/overview.webp", label: "Product overview", position: "center" },
+      { url: "https://www.spicelab.ai", src: "/projects/spicelab/capabilities.webp", label: "AI capabilities", position: "center" },
+      { url: "https://www.spicelab.ai", src: "/projects/spicelab/platform.webp", label: "Industry workflows", position: "center" },
     ],
   },
   {
