@@ -47,8 +47,9 @@ export const projects: Project[] = [
     scope: "Public website, internal CMS, CRM capabilities, campaigns, integrations, and operational tooling.",
     intro: "A connected digital ecosystem for a premium steakhouse: brand storytelling, editorial content, menus, reservations, careers, campaigns, and internal operations.",
     contribution: ["Public site and content architecture", "CMS, CRM, and operational workflows", "Campaign and reservation integrations"],
+    mobileSrc: "/projects/meatguy/hero.webp",
     visuals: [
-      { url: "https://meatguysteakhouse.com", label: "Brand homepage" },
+      { url: "https://meatguysteakhouse.com", src: "/projects/meatguy/hero.webp", label: "Brand homepage", position: "center" },
       { url: "https://meatguysteakhouse.com/story", label: "Brand story" },
       { url: "https://meatguysteakhouse.com/collection/meat", label: "Signature collection" },
       { url: "https://meatguysteakhouse.com/careers", label: "Careers platform" },
