@@ -2112,3 +2112,55 @@
     transform: translateY(0);
   }
 }
+
+/* Portfolio adaptation: layered depth, warm tint, and non-uniform motion. */
+.hero-starfield {
+  background:
+    radial-gradient(circle at 78% 28%, rgba(216, 200, 168, 0.075), transparent 24%),
+    radial-gradient(circle at 18% 78%, rgba(92, 75, 48, 0.055), transparent 30%),
+    radial-gradient(ellipse at bottom, #0d0d0c 0%, #050505 72%);
+}
+
+.hero-starfield::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 72% 44%, transparent 0 18%, rgba(5, 5, 5, 0.18) 55%, transparent 76%),
+    linear-gradient(90deg, rgba(5, 5, 5, 0.3), transparent 42%, rgba(5, 5, 5, 0.14));
+  pointer-events: none;
+}
+
+.hero-starfield .stars {
+  opacity: 0.3;
+  animation: portfolioStarFine 68s linear infinite;
+}
+
+.hero-starfield .stars2 {
+  opacity: 0.48;
+  filter: sepia(0.14);
+  animation: portfolioStarMid 108s linear infinite;
+}
+
+.hero-starfield .stars3 {
+  opacity: 0.68;
+  filter: sepia(0.28) saturate(0.72);
+  animation: portfolioStarNear 156s linear infinite;
+}
+
+@keyframes portfolioStarFine {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-22px, -2000px, 0); }
+}
+
+@keyframes portfolioStarMid {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(34px, -2000px, 0); }
+}
+
+@keyframes portfolioStarNear {
+  0% { opacity: 0.48; transform: translate3d(0, 0, 0); }
+  45% { opacity: 0.72; }
+  100% { opacity: 0.56; transform: translate3d(-12px, -2000px, 0); }
+}
