@@ -6,7 +6,7 @@ import { stack } from "../data";
 import { projectCapture, projects } from "../projects";
 const techLogos:Record<string,string>={"Next.js":"nextdotjs/ffffff","Nuxt 3":"nuxt/00DC82",React:"react/61DAFB",Vue:"vuedotjs/4FC08D",TypeScript:"typescript/3178C6","Node.js":"nodedotjs/5FA04E",NestJS:"nestjs/E0234E",Express:"express/ffffff",PostgreSQL:"postgresql/4169E1","Tailwind CSS":"tailwindcss/06B6D4","REST APIs":"fastapi/009688","AI Integrations":"openai/ffffff"};
 function Arrow(){return <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M8 5h11v11"/></svg>}
-function AiMark(){return <svg className="tech-ai-mark" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/><circle cx="12" cy="12" r="3.25"/></svg>}
+function AiMark(){return <svg className="tech-ai-mark" aria-hidden="true" viewBox="0 0 24 24"><path d="M9.5 4A2.5 2.5 0 0 1 12 6.5v11a2.5 2.5 0 0 1-4.96.44A2.5 2.5 0 0 1 4.5 15.5a3 3 0 0 1 .34-5.98A2.5 2.5 0 0 1 9.5 4Z"/><path d="M14.5 4A2.5 2.5 0 0 0 12 6.5v11a2.5 2.5 0 0 0 4.96.44A2.5 2.5 0 0 0 19.5 15.5a3 3 0 0 0-.34-5.98A2.5 2.5 0 0 0 14.5 4Z"/><path d="M7.5 9.5H10M14 8h2.5v2.5M7.5 14H10M14 15.5h2.5"/><circle cx="7.5" cy="9.5" r=".65"/><circle cx="7.5" cy="14" r=".65"/><circle cx="16.5" cy="10.5" r=".65"/><circle cx="16.5" cy="15.5" r=".65"/></svg>}
 
 export default function Portfolio(){
  const [openProject,setOpenProject]=useState<string|null>(null);
