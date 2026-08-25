@@ -2133,19 +2133,19 @@
 }
 
 .hero-starfield .stars {
-  opacity: 0.3;
+  opacity: 0.58;
   animation: portfolioStarFine 68s linear infinite;
 }
 
 .hero-starfield .stars2 {
-  opacity: 0.48;
-  filter: sepia(0.14);
+  opacity: 0.76;
+  filter: sepia(0.14) drop-shadow(0 0 2px rgba(238, 237, 231, 0.2));
   animation: portfolioStarMid 108s linear infinite;
 }
 
 .hero-starfield .stars3 {
-  opacity: 0.68;
-  filter: sepia(0.28) saturate(0.72);
+  opacity: 0.92;
+  filter: sepia(0.28) saturate(0.72) drop-shadow(0 0 3px rgba(216, 200, 168, 0.32));
   animation: portfolioStarNear 156s linear infinite;
 }
 
@@ -2160,7 +2160,7 @@
 }
 
 @keyframes portfolioStarNear {
-  0% { opacity: 0.48; transform: translate3d(0, 0, 0); }
-  45% { opacity: 0.72; }
-  100% { opacity: 0.56; transform: translate3d(-12px, -2000px, 0); }
+  0% { opacity: 0.72; transform: translate3d(0, 0, 0); }
+  45% { opacity: 1; }
+  100% { opacity: 0.82; transform: translate3d(-12px, -2000px, 0); }
 }
