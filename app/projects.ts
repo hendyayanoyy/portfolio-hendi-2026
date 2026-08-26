@@ -103,7 +103,7 @@ export const projects: Project[] = [
     scope: "Digital product delivery across interface, application logic, and production deployment.",
     intro: "A modern brand platform developed across interface, application logic, and production delivery.",
     contribution: ["Responsive frontend implementation", "Application integration", "Production deployment"],
-    mobileSrc: "",
+    mobileSrc: "/projects/marbl/mobile.webp",
     visuals: [
       { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/hero.webp", label: "A5 Wagyu homepage", position: "center" },
       { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/detail.webp", label: "Product experience", position: "center" },
