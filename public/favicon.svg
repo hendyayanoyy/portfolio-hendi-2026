@@ -1,10 +1,14 @@
-<!-- Hallmark · component: favicon monogram · genre: editorial · theme: portfolio dark
+<!-- Hallmark · component: interlocking HS monogram · genre: editorial · theme: portfolio dark
      critique: P5 H5 E5 S5 R5 V5 · contrast: pass -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
-  <title id="title">HS monogram</title>
-  <desc id="description">Hendi Saputra portfolio favicon</desc>
-  <rect width="64" height="64" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="62" height="62" rx="11" fill="none" stroke="#242421" stroke-width="2"/>
-  <path d="M13 15v34M29 15v34M13 32h16" fill="none" stroke="#D8C8A8" stroke-width="6" stroke-linecap="square"/>
-  <path d="M51 20.5c-2.2-3.6-5.7-5.5-9.7-5.5-5.1 0-9.3 3-9.3 8.1 0 5 3.8 7 9.4 8.5 5.6 1.5 9.6 3.4 9.6 8.7 0 5.4-4.5 8.7-10.2 8.7-4.5 0-8.2-2-10.3-5.8" fill="none" stroke="#EEEDE7" stroke-width="5.5" stroke-linecap="square"/>
+  <title id="title">HS interlocking monogram</title>
+  <desc id="description">Custom Hendi Saputra portfolio mark</desc>
+  <path d="M0 0h64v50L50 64H0z" fill="#050505"/>
+  <path d="M2 2h60v47L49 62H2z" fill="none" stroke="#242421" stroke-width="2"/>
+
+  <!-- The H is structural; the S cuts through it like a routed signal. -->
+  <path d="M13 14v36M31 14v36M13 32h18" fill="none" stroke="#D8C8A8" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M52 18H41c-5 0-8 2.8-8 7 0 3.5 2.1 5.5 6.5 7l5 1.8c4.6 1.7 6.8 4.1 6.8 7.8 0 4.8-3.8 7.4-9.4 7.4H32" fill="none" stroke="#050505" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M52 18H41c-5 0-8 2.8-8 7 0 3.5 2.1 5.5 6.5 7l5 1.8c4.6 1.7 6.8 4.1 6.8 7.8 0 4.8-3.8 7.4-9.4 7.4H32" fill="none" stroke="#EEEDE7" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M52 58h6v-6z" fill="#D8C8A8"/>
 </svg>
