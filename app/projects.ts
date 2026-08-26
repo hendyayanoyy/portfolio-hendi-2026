@@ -11,6 +11,7 @@ export type Project = {
   role: string;
   period: string;
   url: string;
+  fallbackUrl?: string;
   tech: string;
   scope: string;
   intro: string;
@@ -95,14 +96,15 @@ export const projects: Project[] = [
     role: "Full-Stack Web Developer",
     period: "2025 — Present",
     url: "https://marbl.id",
+    fallbackUrl: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/",
     tech: "Next.js",
     scope: "Digital product delivery across interface, application logic, and production deployment.",
     intro: "A modern brand platform developed across interface, application logic, and production delivery.",
     contribution: ["Responsive frontend implementation", "Application integration", "Production deployment"],
+    mobileSrc: "/projects/marbl/hero.webp",
     visuals: [
-      { url: "https://marbl.id", label: "Homepage", position: "top" },
-      { url: "https://marbl.id", label: "Brand narrative", position: "36%" },
-      { url: "https://marbl.id", label: "Product surface", position: "68%" },
+      { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/hero.webp", label: "A5 Wagyu homepage", position: "center" },
+      { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/detail.webp", label: "Product experience", position: "center" },
     ],
   },
   {
@@ -111,14 +113,30 @@ export const projects: Project[] = [
     role: "Full-Stack Web Developer",
     period: "2025 — Present",
     url: "https://meatgainz.id",
+    fallbackUrl: "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/",
     tech: "Next.js",
     scope: "Product website and supporting digital experience within the PT Daging Grup Indonesia ecosystem.",
     intro: "A focused product and brand experience within the PT Daging Grup Indonesia ecosystem.",
     contribution: ["Brand-facing product interface", "Responsive web implementation", "Production handoff and deployment"],
+    mobileSrc: "/projects/meatgainz/hero.webp",
     visuals: [
-      { url: "https://meatgainz.id", label: "Opening frame", position: "top" },
-      { url: "https://meatgainz.id", label: "Product story", position: "38%" },
-      { url: "https://meatgainz.id", label: "Conversion surface", position: "bottom" },
+      { url: "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/meatgainz/hero.webp", label: "Performance-led homepage", position: "center" },
+      { url: "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/meatgainz/detail.webp", label: "Product benefits", position: "center" },
+    ],
+  },
+  {
+    slug: "segara",
+    name: "Segara",
+    role: "Full-Stack Web Developer",
+    period: "2025 — Present",
+    url: "https://segara-web.vercel.app/",
+    tech: "Next.js",
+    scope: "Premium Balinese sea-salt brand experience combining product storytelling, provenance, and a direct path to purchase.",
+    intro: "A refined digital presence for traditionally harvested Balinese sea salt, translating its ocean origin and craft process into an editorial product experience.",
+    contribution: ["Responsive brand experience", "Product and provenance storytelling", "Production deployment"],
+    mobileSrc: "/projects/segara/hero.webp",
+    visuals: [
+      { url: "https://segara-web.vercel.app/", src: "/projects/segara/hero.webp", label: "Ocean-inspired homepage", position: "center" },
     ],
   },
   {
