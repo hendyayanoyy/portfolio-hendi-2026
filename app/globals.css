@@ -23,3 +23,4 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--sand);outline-offse
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-starfield .stars,.hero-starfield .stars2,.hero-starfield .stars3{animation:none}*,*:before,*:after{transition:none!important}}
 .project-mobile>div{aspect-ratio:390/844}
 .project-mobile:has(img[src=""]){display:none}
+@media(max-width:620px){.project-visuals{grid-template-columns:minmax(0,1fr)}.project-mobile{grid-column:1/-1;width:100%}.project-mobile>div{width:100%;aspect-ratio:390/844}.project-mobile img{object-fit:contain;object-position:top}}
