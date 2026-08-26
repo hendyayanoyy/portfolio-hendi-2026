@@ -25,3 +25,4 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--sand);outline-offse
 .project-mobile:has(img[src=""]){display:none}
 @media(max-width:620px){.project-visuals{grid-template-columns:minmax(0,1fr)}.project-mobile{grid-column:1/-1;width:100%}.project-mobile>div{width:100%;aspect-ratio:390/844}.project-mobile img{object-fit:contain;object-position:top}}
 @media(max-width:980px){.project-visuals{grid-template-columns:minmax(0,1fr)!important}.project-mobile{grid-column:1/-1!important;width:100%!important;max-width:none}.project-mobile>div{width:100%;aspect-ratio:390/844}.project-mobile img{width:100%;height:100%;object-fit:contain;object-position:top}}
+@media(max-width:980px){.project-panel-inner{width:100%;min-width:0;padding-left:0;padding-right:0}.project-visuals{width:100%;min-width:0;overflow:hidden}.project-visuals figure,.project-visuals figure>div{width:100%;min-width:0;max-width:100%}.project-visuals img{display:block;max-width:100%}}
