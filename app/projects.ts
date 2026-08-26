@@ -139,38 +139,6 @@ export const projects: Project[] = [
       { url: "https://segara-web.vercel.app/", src: "/projects/segara/hero.webp", label: "Ocean-inspired homepage", position: "center" },
     ],
   },
-  {
-    slug: "gstc",
-    name: "GSTC",
-    role: "Full-Stack Developer · Freelance",
-    period: "Pre–Dec 2024",
-    url: "https://www.gstca.org",
-    tech: "Next.js",
-    scope: "Content-heavy company profile work with multilingual delivery and close UI/UX collaboration.",
-    intro: "A content-heavy multilingual platform for the Global Sustainable Tourism Council, delivered in close collaboration with design and infrastructure teams.",
-    contribution: ["Next.js frontend delivery", "Multilingual content surfaces", "UI/UX and DevOps collaboration"],
-    visuals: [
-      { url: "https://www.gstca.org", label: "Organization homepage" },
-      { url: "https://www.gstca.org/about", label: "Organization profile" },
-      { url: "https://www.gstca.org/certification", label: "Certification content" },
-    ],
-  },
-  {
-    slug: "sirlo-steak",
-    name: "Sirlo Steak",
-    role: "Full-Stack Developer · Freelance",
-    period: "Pre–Dec 2024",
-    url: "https://sirlosteak.com",
-    tech: "Next.js · NestJS",
-    scope: "Website, content management system, and reservation workflow delivered end to end.",
-    intro: "An end-to-end restaurant platform combining the public brand site, content management, and a reservation workflow.",
-    contribution: ["Website and interface delivery", "NestJS application layer", "CMS and reservation workflow"],
-    visuals: [
-      { url: "https://sirlosteak.com", label: "Brand homepage", position: "top" },
-      { url: "https://sirlosteak.com", label: "Dining experience", position: "42%" },
-      { url: "https://sirlosteak.com", label: "Reservation journey", position: "bottom" },
-    ],
-  },
 ];
 
 export const projectCapture = (visual: ProjectVisual) =>
