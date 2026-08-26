@@ -1,14 +1,13 @@
-<!-- Hallmark · component: HS negative-space glyph · genre: editorial · theme: portfolio dark
+<!-- Hallmark · component: HS editorial monogram · genre: editorial · theme: portfolio sand
      critique: P5 H5 E5 S5 R5 V5 · contrast: pass -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
   <title id="title">Hendi Saputra monogram</title>
-  <desc id="description">A single geometric H glyph with an S carved through its center</desc>
-  <defs>
-    <mask id="hs-cut">
-      <rect width="64" height="64" fill="white"/>
-      <path d="M48 18H38.5C33.3 18 30 20.7 30 25c0 3.6 2.5 5.7 7.4 7.1l3.2.9c5 1.4 7.4 3.6 7.4 7.2 0 4.5-3.6 7.8-9.4 7.8H29" fill="none" stroke="black" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
-    </mask>
-  </defs>
-  <rect width="64" height="64" rx="13" fill="#050505"/>
-  <path d="M11 12h11v15h20V12h11v40H42V37H22v15H11z" fill="#D8C8A8" mask="url(#hs-cut)"/>
+  <desc id="description">Editorial HS lettermark in the portfolio sand and near-black palette</desc>
+  <path d="M0 0h64v55l-9 9H0z" fill="#D8C8A8"/>
+  <path d="M3 3h58v50.75L53.75 61H3z" fill="none" stroke="#050505" stroke-width="0.65"/>
+  <g fill="#050505">
+    <path transform="translate(8.2 41.9) scale(.03375 -.03375)" d="M584 347V123C584 72 584 70 578 61C570 51 551 47 494 47H476V0H804V47H786C729 47 710 51 702 61C696 70 696 71 696 123V599C696 651 696 652 702 661C711 672 729 675 786 675H804V722H480V675H494C551 675 569 672 578 661C584 652 584 650 584 599V401H249V599C249 650 249 652 256 661C264 672 282 675 339 675H358V722H29V675H47C104 675 122 672 131 661C137 652 137 650 137 599V123C137 73 137 70 131 61C123 51 104 47 47 47H29V0H358V47H339C282 48 264 51 256 61C249 70 249 72 249 123V347Z"/>
+    <path transform="translate(32.2 41.9) scale(.03375 -.03375)" d="M546 728H509L469 668C421 713 358 737 287 737C155 737 68 654 68 528C68 419 122 365 269 327L364 303C438 284 445 282 466 266C496 243 512 210 512 171C512 131 497 98 467 70C434 42 401 31 346 31C272 31 219 54 172 106C130 152 109 200 94 277H51L55 -8H94L139 60C206 5 261 -15 349 -15C496 -15 590 71 590 205C590 268 570 320 530 358C503 384 464 401 384 421L277 448C188 471 146 510 146 571C146 641 203 689 288 689C358 689 415 659 455 602C484 561 503 519 515 468H558Z"/>
+  </g>
+  <path d="M49.4 50.75h3.1v-3.1z" fill="#050505"/>
 </svg>
