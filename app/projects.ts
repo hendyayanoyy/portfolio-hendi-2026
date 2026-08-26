@@ -31,7 +31,7 @@ export const projects: Project[] = [
     scope: "AI-powered content, agent, and workflow experiences across customer-facing product surfaces and internal operations.",
     intro: "An AI operations platform designed for Indonesian businesses, connecting customer conversations, content production, and CRM workflows in one product surface.",
     contribution: ["Customer-facing product experience", "AI feature and workflow integration", "Responsive interface and production delivery"],
-    mobileSrc: "/projects/spicelab/overview.webp",
+    mobileSrc: "/projects/spicelab/mobile.webp",
     visuals: [
       { url: "https://www.spicelab.ai", src: "/projects/spicelab/overview.webp", label: "Product overview", position: "center" },
       { url: "https://www.spicelab.ai", src: "/projects/spicelab/capabilities.webp", label: "AI capabilities", position: "center" },
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     scope: "Public website, internal CMS, CRM capabilities, campaigns, integrations, and operational tooling.",
     intro: "A connected digital ecosystem for a premium steakhouse: brand storytelling, editorial content, menus, reservations, careers, campaigns, and internal operations.",
     contribution: ["Public site and content architecture", "CMS, CRM, and operational workflows", "Campaign and reservation integrations"],
-    mobileSrc: "/projects/meatguy/hero.webp",
+    mobileSrc: "/projects/meatguy/mobile.webp",
     visuals: [
       { url: "https://meatguysteakhouse.com", src: "/projects/meatguy/hero.webp", label: "Brand homepage", position: "center" },
       { url: "https://meatguysteakhouse.com/story", label: "Brand story" },
@@ -66,6 +66,7 @@ export const projects: Project[] = [
     scope: "Standalone brand website for private steak experiences, including scroll-led storytelling, enquiry paths, and production deployment.",
     intro: "A cinematic, scroll-led site for private steak parties delivered at the customer’s location, balancing atmosphere with a direct enquiry path.",
     contribution: ["Scroll-led frontend experience", "Responsive enquiry journey", "Standalone production deployment"],
+    mobileSrc: "/projects/grillz/mobile.webp",
     visuals: [
       { url: "https://grillz.id", src: "/projects/grillz/opening.webp", label: "Opening experience", position: "center" },
       { url: "https://grillz.id", src: "/projects/grillz/experience.webp", label: "Social proof & testimonials", position: "center" },
@@ -83,6 +84,7 @@ export const projects: Project[] = [
     scope: "Customer-facing brand platform connected to an internal content and operational CMS.",
     intro: "A warm editorial commerce presence for an artisan bakery, connecting product discovery, seasonal storytelling, galleries, and journal content.",
     contribution: ["Public brand and menu experience", "Content and gallery surfaces", "CMS-backed publishing workflow"],
+    mobileSrc: "/projects/golden-sugar/mobile.webp",
     visuals: [
       { url: "https://www.goldensugar.id", label: "Brand homepage", position: "top" },
       { url: "https://www.goldensugar.id", label: "Menu collection", position: "28%" },
@@ -101,7 +103,7 @@ export const projects: Project[] = [
     scope: "Digital product delivery across interface, application logic, and production deployment.",
     intro: "A modern brand platform developed across interface, application logic, and production delivery.",
     contribution: ["Responsive frontend implementation", "Application integration", "Production deployment"],
-    mobileSrc: "/projects/marbl/hero.webp",
+    mobileSrc: "",
     visuals: [
       { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/hero.webp", label: "A5 Wagyu homepage", position: "center" },
       { url: "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/marbl/detail.webp", label: "Product experience", position: "center" },
@@ -118,7 +120,7 @@ export const projects: Project[] = [
     scope: "Product website and supporting digital experience within the PT Daging Grup Indonesia ecosystem.",
     intro: "A focused product and brand experience within the PT Daging Grup Indonesia ecosystem.",
     contribution: ["Brand-facing product interface", "Responsive web implementation", "Production handoff and deployment"],
-    mobileSrc: "/projects/meatgainz/hero.webp",
+    mobileSrc: "/projects/meatgainz/mobile.webp",
     visuals: [
       { url: "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/meatgainz/hero.webp", label: "Performance-led homepage", position: "center" },
       { url: "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/", src: "/projects/meatgainz/detail.webp", label: "Product benefits", position: "center" },
@@ -134,7 +136,7 @@ export const projects: Project[] = [
     scope: "Premium Balinese sea-salt brand experience combining product storytelling, provenance, and a direct path to purchase.",
     intro: "A refined digital presence for traditionally harvested Balinese sea salt, translating its ocean origin and craft process into an editorial product experience.",
     contribution: ["Responsive brand experience", "Product and provenance storytelling", "Production deployment"],
-    mobileSrc: "/projects/segara/hero.webp",
+    mobileSrc: "/projects/segara/mobile.webp",
     visuals: [
       { url: "https://segara-web.vercel.app/", src: "/projects/segara/hero.webp", label: "Ocean-inspired homepage", position: "center" },
     ],
