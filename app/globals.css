@@ -33,6 +33,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--sand);outline-offse
 .hero h1{max-width:15ch;margin:auto 0 clamp(3rem,6vh,5rem);display:grid;gap:.04em;font-size:clamp(3.4rem,6.4vw,7.2rem);line-height:.98;letter-spacing:-.052em;overflow-wrap:anywhere;min-width:0}
 .hero{background:var(--bg)}
 .hero:after{display:none}
+.hero-atmosphere{position:absolute;z-index:0;inset:0;overflow:hidden;pointer-events:none;opacity:.3;mask-image:linear-gradient(to bottom,#000 0 72%,transparent 96%)}
+.hero-atmosphere i{position:absolute;inset:-12%;background-image:radial-gradient(circle,var(--ink) 0 1px,transparent 1.4px);background-size:137px 113px;animation:ambient-drift 54s linear infinite}
+.hero-atmosphere i:first-child{transform:translate3d(-3%,0,0);opacity:.55}
+.hero-atmosphere i:last-child{background-size:211px 173px;transform:translate3d(4%,-8%,0);opacity:.34;animation-duration:72s;animation-direction:reverse}
+@keyframes ambient-drift{to{translate:3% -7%}}
 .hero-line{display:block;overflow:hidden;padding-bottom:.055em}
 .hero-line>span{display:block}
 .hero-bottom{padding-top:clamp(2.5rem,5vw,5rem);grid-template-columns:minmax(0,1fr) minmax(17rem,.38fr);gap:clamp(3rem,9vw,11rem);border-top:1px solid var(--line)}
@@ -73,5 +78,6 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--sand);outline-offse
  .hero-bottom{padding-top:2rem}
  .hero-action{grid-template-columns:1fr}
  .hero-action>a{width:max-content}
+ .hero-atmosphere{display:none}
 }
-@media(prefers-reduced-motion:reduce){.hero-line>span{transform:none!important}.motion-link:after,.service-list article:after{transition:none}}
+@media(prefers-reduced-motion:reduce){.hero-line>span{transform:none!important}.hero-atmosphere i{animation:none}.motion-link:after,.service-list article:after{transition:none}}
