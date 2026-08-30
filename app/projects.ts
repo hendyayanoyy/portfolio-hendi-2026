@@ -139,6 +139,7 @@ export const projects: Project[] = [
     mobileSrc: "/projects/segara/mobile.webp",
     visuals: [
       { url: "https://segara-web.vercel.app/", src: "/projects/segara/hero.webp", label: "Ocean-inspired homepage", position: "center" },
+      { url: "https://segara-web.vercel.app/", label: "Product origin & craft", position: "62%" },
     ],
   },
 ];
