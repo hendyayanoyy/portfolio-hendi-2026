@@ -140,7 +140,7 @@ export default function Portfolio() {
         },
       };
   return (
-    <main id="top" data-build="2026-09-18-ponytail-antislop">
+    <main id="top" data-build="2026-09-21-search-capability">
       <motion.div
         className="progress"
         style={{ scaleX: progress }}
@@ -299,6 +299,15 @@ export default function Portfolio() {
               <p>
                 AI-assisted flows and integrations that reduce repetitive work
                 instead of adding novelty.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>SEO, GEO &amp; AEO</h3>
+              <p>
+                Technical SEO, structured data, entity clarity, and answer-first
+                content for search engines, generative AI results, and answer
+                engines.
               </p>
             </article>
           </div>
