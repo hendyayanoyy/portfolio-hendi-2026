@@ -140,7 +140,7 @@ export default function Portfolio() {
         },
       };
   return (
-    <main id="top" data-build="2026-09-21-search-capability">
+    <main id="top" data-build="2026-09-21-education-dates">
       <motion.div
         className="progress"
         style={{ scaleX: progress }}
@@ -527,7 +527,8 @@ export default function Portfolio() {
               <span>Education</span>
               <strong>Universitas Pamulang</strong>
               <p>
-                Informatics Engineering completed. Awaiting graduation ceremony.
+                B.S. in Informatics Engineering. July 28, 2021 to February 6,
+                2026.
               </p>
             </article>
             <article>
