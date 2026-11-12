@@ -63,7 +63,7 @@ export const projects: Project[] = [
     slug: "meatguy-ecosystem",
     name: "Meatguy Ecosystem",
     role: "Full-Stack Web Developer",
-    period: "Dec 2024 to present",
+    period: "Dec 2024 to Aug 2026",
     url: "https://meatguysteakhouse.com",
     tech: "Nuxt 3 · Express · PostgreSQL",
     scope:
@@ -142,7 +142,7 @@ export const projects: Project[] = [
     slug: "golden-sugar",
     name: "Golden Sugar",
     role: "Full-Stack Web Developer",
-    period: "2025 to present",
+    period: "2025 to Aug 2026",
     url: "https://www.goldensugar.id",
     tech: "Nuxt 3 · CMS · APIs",
     scope:
@@ -182,7 +182,7 @@ export const projects: Project[] = [
     slug: "marbl",
     name: "Marbl",
     role: "Full-Stack Web Developer",
-    period: "2025 to present",
+    period: "2025 to Aug 2026",
     url: "https://marbl.id",
     fallbackUrl:
       "https://web-marbl-git-main-hendi-saputras-projects.vercel.app/",
@@ -216,7 +216,7 @@ export const projects: Project[] = [
     slug: "meatgainz",
     name: "Meatgainz",
     role: "Full-Stack Web Developer",
-    period: "2025 to present",
+    period: "2025 to Aug 2026",
     url: "https://meatgainz.id",
     fallbackUrl:
       "https://web-meatgainz-git-main-hendi-saputras-projects.vercel.app/",
@@ -250,7 +250,7 @@ export const projects: Project[] = [
     slug: "segara",
     name: "Segara",
     role: "Full-Stack Web Developer",
-    period: "2025 to present",
+    period: "2025 to Aug 2026",
     url: "https://segara-web.vercel.app/",
     tech: "Next.js",
     scope:

@@ -511,16 +511,16 @@ export default function Portfolio() {
         <div className="resume-content">
           <div className="resume-lead">
             <p>Currently shipping at</p>
-            <h2>PT Daging Grup Indonesia</h2>
-            <span>December 2024 to present</span>
+            <h2>PT Spicelab Technology Intelligence</h2>
+            <span>August 2026 to present</span>
           </div>
           <div className="resume-rows">
             <article>
               <span>Role</span>
               <strong>Full-Stack Web Developer</strong>
               <p>
-                Web products, operational systems, integrations, and AI
-                workflows.
+                AI operations platform, LLM-powered customer service agents,
+                and AI content studio for Indonesian businesses.
               </p>
             </article>
             <article>
